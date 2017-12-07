@@ -29,6 +29,8 @@ class ViewController: UIViewController {
             toggleBtn.setImage(UIImage(named: "offBtn")!, for: .normal)
             onOffLbl.text = "🌚 OFF 🌚"
             onOffLbl.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+            toggleFlash()
+
             
         } else {
             view.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
