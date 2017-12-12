@@ -40,13 +40,20 @@
                                     <action selector="toggleBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JBE-yP-h9Y"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.050000000000000003" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="crafty" translatesAutoresizingMaskIntoConstraints="NO" id="328-Zd-szN">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="328-Zd-szN" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="KGo-7C-L44"/>
                             <constraint firstItem="dIa-bR-ZEb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Qfy-BT-ulM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="A2R-2M-raH" secondAttribute="bottom" constant="100" id="Qss-vo-Zin"/>
+                            <constraint firstItem="328-Zd-szN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="RiE-Q2-PRd"/>
                             <constraint firstItem="A2R-2M-raH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XwS-4K-WfF"/>
+                            <constraint firstItem="328-Zd-szN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="i4W-3B-TfS"/>
                             <constraint firstItem="dIa-bR-ZEb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="noN-Ay-Q9C"/>
+                            <constraint firstItem="328-Zd-szN" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yf2-3k-bI0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -57,10 +64,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-79.200000000000003" y="132.68365817091455"/>
+            <point key="canvasLocation" x="-80.625" y="132.04225352112675"/>
         </scene>
     </scenes>
     <resources>
+        <image name="crafty" width="1600" height="1600"/>
         <image name="offBtn" width="110" height="110"/>
     </resources>
 </document>
